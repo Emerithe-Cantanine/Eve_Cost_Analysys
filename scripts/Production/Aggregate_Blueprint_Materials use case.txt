@@ -1,0 +1,6 @@
+# Example usage:
+if __name__ == "__main__":
+    type_id = 12345      # Replace with the desired typeID
+    activity_id = 1      # Replace with the desired activityID (e.g., 1 = manufacturing)
+    results = get_material_requirements(type_id, activity_id)
+    #results = [(21947, 3), (21951, 1), (21959, 1), (21967, 1), (81920, 1)]

@@ -1,0 +1,13 @@
+conn = sqlite3.connect("F:/Eve Cost Analysis/CostAnalysis.db")
+conn.isolation_level = None  # Required for SAVEPOINT to work outside of autocommit
+
+# Start a transaction
+conn.execute("BEGIN")
+
+# Simulate buying tritanium
+sps = pretend_buy_materials(conn, type_id=34, amount_needed=100000)
+print(f"Savepoints used: {sps}")
+
+# After pricing is done, revert
+rollback_savepoints(conn, sps)
+print("Rollback complete.")

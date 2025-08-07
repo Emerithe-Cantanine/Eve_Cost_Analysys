@@ -1,0 +1,11 @@
+These numbers are computed using the most recent 14 days where there
+was data.
+
+fraction high is the fraction of the amount of items that were sold
+near the sell price.
+
+volume_high is the estimated amount of items that were sold at
+the sell price each day.
+
+volume_low is the estimated amount of items that were sold at
+the buy price each day.
