@@ -1,0 +1,1 @@
+update MarketOrdersAll set tradeHub = "1" where solarsystemid = 30000142 or solarsystemid = 30002187 or solarsystemid = 30002053 or solarsystemid = 30002510 or solarsystemid = 30002659

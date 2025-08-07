@@ -1,0 +1,1 @@
+Select * from solarsystems where solarsystemname = "Jita" or solarsystemname = "Amarr" or solarsystemname = "Hek" or solarsystemname = "Rens" or solarsystemname = "Dodixie"
