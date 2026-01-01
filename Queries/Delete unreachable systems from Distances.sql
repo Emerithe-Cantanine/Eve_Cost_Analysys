@@ -1,0 +1,1 @@
+delete from Distances where distanceAmarr is null and distanceDodixie is null;
