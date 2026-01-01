@@ -44,16 +44,23 @@ MaxProductionLimits - This is updated with the same script as the Items table.
 
 OnHandMaterials - This is unused
 
-OrderHistory - Update with this. The first one takes 36 hours:
+OrderHistory - Update with this. It takes 36 hours:
 F:\Eve Cost Analysis\scripts\API Stuff\Import OrderHistory into csv.py
+
+Alternatively, Shasokas Tour has a script that pulls order history.
+I pay him 100 mil each week for the data. If you ask him, he'd probably give/sell it to you as well.
+
+Then Import the data into the database from the csv:
 F:\Eve Cost Analysis\scripts\API Stuff\Import OrderHistroy from csv into db.py
+
+This script analyzes the order history data to estimate how many of an item goes for the sell price in a specific region per day:
 F:\Eve Cost Analysis\scripts\Market Processing\OrderHistory Avg Highest and Avg Volume.py
 
 PackagedItemVolumes - This is unused
 PurchaseOrders - This is unused
 
-Recipes - Update with this table. It takes about 36 minutes:
-Run this sql script: F:\Eve Cost Analysis\Queries\Insert into Recipes from Items.sql
+Recipes - Update with this query and script. It takes about 36 minutes:
+Run this sql query: F:\Eve Cost Analysis\Queries\Insert into Recipes from Items.sql
 Then run this python script F:\Eve Cost Analysis\scripts\Production\GenerateDatabaseRecipes.py
 
 Regions - Relies on data from fuzzworks, but doesn't really need much updating for obvious reasons
@@ -62,5 +69,6 @@ Reports - Unused
 SolarSystemJumps - Also relies on data from fuzzworks
 SolarSystems - Relies on data from fuzzworks
 Stations - Relies on data from fuzzworks
+
 
 SystemCostIndexes - F:\Eve Cost Analysis\scripts\API Stuff\2 - API call to db - SystemCostIndex.py
