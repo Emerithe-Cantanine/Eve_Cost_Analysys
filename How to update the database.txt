@@ -1,0 +1,66 @@
+AdjustedCostIndexes - Update with this script: F:\Eve Cost Analysis\scripts\API Stuff\Import into AdjustedCostIndex.py
+
+These 3 tables are updated with this script: F:\Eve Cost Analysis\scripts\Static Data\Parse Static Data into DB.py
+BlueprintActivityMaterialRequirements
+BlueprintActivityProductionAmounts
+BlueprintActivityTimes
+Run the script whenever a new SDE drops. It updates the Items table too.
+
+Distances - This runs on old data from fuzzworks and will eventually need the data gotten from the SDE.
+Obviously, the gate networks don't get updated often, so this can probably wait a while before I
+have to figure out how to pulll the data from the SDE download and format at it like fuzzworks did.
+Run these scripts:
+F:\Eve Cost Analysis\scripts\Distances\Distances distanceAmarr.py
+F:\Eve Cost Analysis\scripts\Distances\Distances distanceDodixie.py
+F:\Eve Cost Analysis\scripts\Distances\Distances distanceHek.py
+F:\Eve Cost Analysis\scripts\Distances\Distances distanceHomeAndContiguousHighsec.py
+F:\Eve Cost Analysis\scripts\Distances\Distances distanceJita.py
+
+EstimatedRegionalHighSellAmount - this is a derivative table that needs to be updated whenever the OrderHistory
+table gets updated. I'm guessing you run this script:
+F:\Eve Cost Analysis\scripts\Market Processing\EstimateRegionalHighSellAmount.py
+
+IndustryActivityMaterials - I have been unable to find where this is used in my program and don't know how to update it.
+IndustryActivitySkills - This actually isn't used
+InventionInputsAndProbabilities - This isn't used either
+ItemReprocessingOutputs - Unused
+
+Items - This table is updated at the same time as the 3 Blueprint tables. Update it with this script whenever a new SDE drops:
+F:\Eve Cost Analysis\scripts\Static Data\Parse Static Data into DB.py
+F:\Eve Cost Analysis\scripts\Update Items with ActivityID.py
+F:\Eve Cost Analysis\scripts\Find blueprints for items.py
+
+MarketOrdersAll - This should be updated every day or two.
+This script takes like 3 hours: F:\Eve Cost Analysis\scripts\API Stuff\Import into Market Orders db.py
+There is another script that exports the data to a csv and only takes like 45 minutes, but I don't remember where it is.
+Afterwards these scripts need to be run to update the distances of each order. I think they take 5 or 10 minutes each:
+F:\Eve Cost Analysis\scripts\Market Processing\MarketOrdersAll distanceAmarr.py
+F:\Eve Cost Analysis\scripts\Market Processing\MarketOrdersAll distanceDodixie.py
+F:\Eve Cost Analysis\scripts\Market Processing\MarketOrdersAll distanceHek.py
+F:\Eve Cost Analysis\scripts\Market Processing\MarketOrdersAll distanceHomeAndContiguousHighsec.py
+F:\Eve Cost Analysis\scripts\Market Processing\MarketOrdersAll distanceJita.py
+
+MaxProductionLimits - This is updated with the same script as the Items table.
+
+OnHandMaterials - This is unused
+
+OrderHistory - Update with this. The first one takes 36 hours:
+F:\Eve Cost Analysis\scripts\API Stuff\Import OrderHistory into csv.py
+F:\Eve Cost Analysis\scripts\API Stuff\Import OrderHistroy from csv into db.py
+F:\Eve Cost Analysis\scripts\Market Processing\OrderHistory Avg Highest and Avg Volume.py
+
+PackagedItemVolumes - This is unused
+PurchaseOrders - This is unused
+
+Recipes - Update with this table. It takes about 36 minutes:
+Run this sql script: F:\Eve Cost Analysis\Queries\Insert into Recipes from Items.sql
+Then run this python script F:\Eve Cost Analysis\scripts\Production\GenerateDatabaseRecipes.py
+
+Regions - Relies on data from fuzzworks, but doesn't really need much updating for obvious reasons
+Reports - Unused
+
+SolarSystemJumps - Also relies on data from fuzzworks
+SolarSystems - Relies on data from fuzzworks
+Stations - Relies on data from fuzzworks
+
+SystemCostIndexes - F:\Eve Cost Analysis\scripts\API Stuff\2 - API call to db - SystemCostIndex.py

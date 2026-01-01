@@ -1,0 +1,6 @@
+1 = manufacturing
+3 = ME
+4 = TE
+5 = Copying
+8 = invention
+11 = reactions

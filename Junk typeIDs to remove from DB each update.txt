@@ -1,0 +1,1530 @@
+1202	Civilian Mining Drone
+1947	ECCM - Radar I
+1959	ECCM Projector I
+1960	ECCM Projector II
+2001	Deprecated Cynosural Suppression
+2002	ECCM - Ladar I
+2003	ECCM - Magnetometric I
+2004	ECCM - Gravimetric I
+2005	ECCM - Omni I
+2008	Deprecated Cynosural Navigation
+2009	Deprecated Supercapital Construction Facilities
+2026	Deprecated Pirate Detection Array 1
+2027	Deprecated Pirate Detection Array 2
+2028	Deprecated Pirate Detection Array 3
+2029	Deprecated Pirate Detection Array 4
+2030	Deprecated Pirate Detection Array 5
+2031	Deprecated Entrapment Array 1
+2034	Deprecated Entrapment Array 2
+2035	Deprecated Entrapment Array 3
+2036	Deprecated Entrapment Array 4
+2037	Deprecated Entrapment Array 5
+2040	Deprecated Ore Prospecting Array 1
+2041	Deprecated Ore Prospecting Array 2
+2042	Deprecated Ore Prospecting Array 3
+2043	Deprecated Ore Prospecting Array 4
+2044	Deprecated Ore Prospecting Array 5
+2053	Deprecated Survey Networks 1
+2054	Deprecated Survey Networks 2
+2055	Deprecated Survey Networks 3
+2056	Deprecated Survey Networks 4
+2057	Deprecated Survey Networks 5
+2058	Deprecated Quantum Flux Generator 1
+2059	Deprecated Quantum Flux Generator 2
+2060	Deprecated Quantum Flux Generator 3
+2061	Deprecated Quantum Flux Generator 4
+2062	Deprecated Quantum Flux Generator 5
+2210	Banshee Torpedo
+2212	Ghost Heavy Missile
+2258	ECCM - Omni II
+2259	ECCM - Gravimetric II
+2260	ECCM - Ladar II
+2261	ECCM - Magnetometric II
+2262	ECCM - Radar II
+2579	Gravimetric Backup Array I
+2580	Gravimetric Backup Array II
+2583	Ladar Backup Array I
+2584	Ladar Backup Array II
+2587	Magnetometric Backup Array I
+2588	Magnetometric Backup Array II
+2591	Multi Sensor Backup Array I
+2592	Multi Sensor Backup Array II
+2834	Utu
+2836	Adrestia
+2838	Standard Cerebral Accelerator
+2948	Shadow
+2998	Noctis
+3218	Harvester Mining Drone
+3472	X-Large Capacitor Battery II
+3514	Revenant
+3516	Malice
+3518	Vangel
+3581	Purloined Sansha Data Analyzer
+3585	Mangled Sansha Data Analyzer
+3651	Civilian Miner
+3733	Cobra Mine
+3735	Anaconda Mine
+3737	Asp Mine
+3756	Gnosis
+3764	Leviathan
+3793	Data Subverter I
+3922	Hardware
+4005	Scorpion Ishukone Watch
+4013	RADAR Backup Array I
+4014	RADAR Backup Array II
+4262	Armored Warfare Link - Damage Control II
+4264	Armored Warfare Link - Passive Defense II
+4266	Armored Warfare Link - Rapid Repair II
+4268	Information Warfare Link - Electronic Superiority II
+4270	Information Warfare Link - Recon Operation II
+4272	Information Warfare Link - Sensor Integrity II
+4274	Mining Foreman Link - Harvester Capacitor Efficiency II
+4276	Mining Foreman Link - Laser Optimization II
+4278	Mining Foreman Link - Mining Laser Field Enhancement II
+4280	Siege Warfare Link - Active Shielding II
+4282	Siege Warfare Link - Shield Efficiency II
+4284	Siege Warfare Link - Shield Harmonizing II
+4286	Skirmish Warfare Link - Evasive Maneuvers II
+4288	Skirmish Warfare Link - Interdiction Maneuvers II
+4290	Skirmish Warfare Link - Rapid Deployment II
+4363	Miasmos Quafe Ultra Edition
+4369	Small Targeting Amplifier I
+4386	Mobile Large Jump Disruptor I
+4388	Miasmos Quafe Ultramarine Edition
+4407	Shield Booster Fuel Allocation Script
+10039	Civilian Shield Booster
+10642	Countermeasure Launcher I
+11011	Guardian-Vexor
+11014	Command Processor I
+11017	Skirmish Warfare Link - Interdiction Maneuvers I
+11052	Information Warfare Link - Sensor Integrity I
+11291	50mm Steel Plates I
+11373	Blade
+11375	Erinye
+11383	Gatherer
+11389	Kishar
+11468	Hacker Deck - Codex
+11469	Hacker Deck - Shaman
+11470	Hacker Deck - Hermes
+11471	Hacker Deck - LXD-27
+11472	Hyper Net Uplink
+11473	Terran Molecular Sequencer
+11474	R.A.M.- Industrial Tech
+11477	R.A.M.- Platform Tech
+11479	R.A.M.- Cruiser Tech
+11480	R.A.M.- Battleship Tech
+11513	R.A.M.- Pharmaceuticals
+11514	R.A.M.- Hypernet Tech
+11567	Avatar
+11653	Hacker Deck - Alpha
+11936	Apocalypse Imperial Issue
+11938	Armageddon Imperial Issue
+12036	Dagger
+12552	Lux S
+12561	Blaze S
+12610	Desolation S
+12616	Bolt S
+12627	Storm S
+12629	Shock S
+12711	Small Active Stealth System I
+12713	Medium Active Stealth System I
+12715	Large Active Stealth System I
+12717	Huge Active Stealth System I
+12763	Shock L
+12769	Shock M
+12781	Storm M
+12783	Storm L
+12793	Desolation M
+12795	Desolation L
+12797	Bolt M
+12799	Bolt L
+12810	Blaze M
+12812	Blaze L
+12830	Lux M
+12832	Lux L
+15675	Caldari Navy Co-Processor
+15677	Federation Navy Co-Processor
+15681	Caldari Navy Ballistic Control System
+15683	Republic Fleet Ballistic Control System
+15685	Imperial Navy Thermal Coating
+15687	Imperial Navy EM Coating
+15689	Imperial Navy Explosive Coating
+15691	Imperial Navy Kinetic Coating
+15693	Imperial Navy Multispectrum Coating
+15695	Republic Fleet Thermal Coating
+15697	Republic Fleet EM Coating
+15699	Republic Fleet Explosive Coating
+15701	Republic Fleet Kinetic Coating
+15703	Republic Fleet Multispectrum Coating
+15705	Imperial Navy Thermal Armor Hardener
+15707	Imperial Navy Kinetic Armor Hardener
+15709	Imperial Navy Explosive Armor Hardener
+15711	Imperial Navy EM Armor Hardener
+15713	Republic Fleet Thermal Armor Hardener
+15715	Republic Fleet Kinetic Armor Hardener
+15717	Republic Fleet Explosive Armor Hardener
+15719	Republic Fleet EM Armor Hardener
+15721	Imperial Navy Thermal Energized Membrane
+15723	Imperial Navy EM Energized Membrane
+15725	Imperial Navy Explosive Energized Membrane
+15727	Imperial Navy Kinetic Energized Membrane
+15729	Imperial Navy Multispectrum Energized Membrane
+15731	Federation Navy Thermal Energized Membrane
+15733	Federation Navy EM Energized Membrane
+15735	Federation Navy Explosive Energized Membrane
+15737	Federation Navy Kinetic Energized Membrane
+15739	Federation Navy Multispectrum Energized Membrane
+15747	Republic Fleet 5MN Microwarpdrive
+15749	Republic Fleet 1MN Afterburner
+15751	Republic Fleet 50MN Microwarpdrive
+15753	Republic Fleet 10MN Afterburner
+15755	Republic Fleet 500MN Microwarpdrive
+15757	Republic Fleet 100MN Afterburner
+15759	Federation Navy 5MN Microwarpdrive
+15761	Federation Navy 1MN Afterburner
+15764	Federation Navy 50MN Microwarpdrive
+15766	Federation Navy 10MN Afterburner
+15768	Federation Navy 500MN Microwarpdrive
+15782	Imperial Navy Micro Capacitor Booster
+17485	Republic Fleet Cruise Missile Launcher
+17488	Republic Fleet Rocket Launcher
+17500	Caldari Navy Stasis Webifier
+17502	Ammatar Navy EM Armor Hardener
+17504	Ammatar Navy Explosive Armor Hardener
+17506	Ammatar Navy Kinetic Armor Hardener
+17508	Ammatar Navy Thermal Armor Hardener
+17510	Ammatar Navy Capacitor Power Relay
+17512	Ammatar Navy Kinetic Coating
+17514	Ammatar Navy Multispectrum Coating
+17516	Ammatar Navy Explosive Coating
+17518	Ammatar Navy EM Coating
+17520	Federation Navy Sensor Booster
+17522	Ammatar Navy Reactor Control Unit
+17524	Ammatar Navy Power Diagnostic System
+17526	Imperial Navy Cap Recharger
+17528	Imperial Navy Capacitor Power Relay
+17536	Ammatar Navy Multispectrum Energized Membrane
+17538	Ammatar Navy Kinetic Energized Membrane
+17540	Ammatar Navy Explosive Energized Membrane
+17542	Ammatar Navy EM Energized Membrane
+17544	Ammatar Navy Thermal Energized Membrane
+17549	Federation Navy Multispectrum Coating
+17551	Federation Navy Kinetic Coating
+17553	Federation Navy Explosive Coating
+17555	Federation Navy EM Coating
+17557	Federation Navy Thermal Coating
+17559	Federation Navy Stasis Webifier
+17621	Corporate Hangar Array
+17705	Khanid Navy Frigate
+17707	Mordus Frigate
+17761	Gold Sculpture
+17832	Federation Navy EM Armor Hardener
+17834	Federation Navy Explosive Armor Hardener
+17836	Federation Navy Kinetic Armor Hardener
+17838	Federation Navy Thermal Armor Hardener
+17873	System Scanner I
+17884	Recon System Scanner
+18036	Arkonor Mining Crystal I
+18038	Bistot Mining Crystal I
+18040	Crokite Mining Crystal I
+18042	Dark Ochre Mining Crystal I
+18044	Gneiss Mining Crystal I
+18046	Hedbergite Mining Crystal I
+18048	Hemorphite Mining Crystal I
+18050	Jaspet Mining Crystal I
+18052	Kernite Mining Crystal I
+18056	Omber Mining Crystal I
+18058	Plagioclase Mining Crystal I
+18060	Pyroxeres Mining Crystal I
+18062	Scordite Mining Crystal I
+18064	Spodumain Mining Crystal I
+18066	Veldspar Mining Crystal I
+18068	Modulated Deep Core Miner II
+18590	Arkonor Mining Crystal II
+18592	Bistot Mining Crystal II
+18594	Crokite Mining Crystal II
+18596	Dark Ochre Mining Crystal II
+18598	Gneiss Mining Crystal II
+18600	Hedbergite Mining Crystal II
+18602	Hemorphite Mining Crystal II
+18604	Jaspet Mining Crystal II
+18606	Kernite Mining Crystal II
+18610	Omber Mining Crystal II
+18612	Plagioclase Mining Crystal II
+18614	Pyroxeres Mining Crystal II
+18616	Scordite Mining Crystal II
+18618	Veldspar Mining Crystal II
+18624	Spodumain Mining Crystal II
+19534	High-grade Talisman Alpha
+19808	Partial Weapon Navigation
+19810	Peripheral Compact Target Painter
+19812	Parallel Enduring Target Painter
+19814	Phased Scoped Target Painter
+19994	Arch Angel Carbonized Lead M
+20002	Arch Angel Titanium Sabot M
+20069	Armored Warfare Link - Damage Control I
+20070	Skirmish Warfare Link - Evasive Maneuvers I
+20124	Siege Warfare Link - Active Shielding I
+20218	Conjunctive Radar ECCM Scanning Array I
+20224	Conjunctive Ladar ECCM Scanning Array I
+20230	Conjunctive Gravimetric ECCM Scanning Array I
+20236	Conjunctive Magnetometric ECCM Scanning Array I
+20238	Secure Gravimetric Backup Cluster I
+20240	Shielded Gravimetric Backup Cluster I
+20242	Warded Gravimetric Backup Cluster I
+20244	Secure Ladar Backup Cluster I
+20246	Shielded Ladar Backup Cluster I
+20248	Warded Ladar Backup Cluster I
+20250	Secure Magnetometric Backup Cluster I
+20252	Shielded Magnetometric Backup Cluster I
+20254	Warded Magnetometric Backup Cluster I
+20260	Secure Radar Backup Cluster I
+20262	Shielded Radar Backup Cluster I
+20264	Warded Radar Backup Cluster I
+20343	50mm Steel Plates II
+20367	Smugglers Mask I
+20405	Information Warfare Link - Recon Operation I
+20406	Information Warfare Link - Electronic Superiority I
+20408	Skirmish Warfare Link - Rapid Deployment I
+20409	Armored Warfare Link - Passive Defense I
+20514	Siege Warfare Link - Shield Harmonizing I
+20555	Small 'Siesta' Capacitor Booster
+20557	Medium 'Gattotte' Capacitor Booster
+20559	Heavy 'Brave' Capacitor Booster
+20561	Prototype 'Poncho' Cloaking Device I
+20563	'Smokescreen' Covert Ops Cloaking Device II
+20565	Improved 'Guise' Cloaking Device II
+20567	'Dyad' Co-Processor I
+20569	'Deuce' Co-Processor I
+20573	'Marshall' Magnetometric ECM
+20575	'Gambler' Ladar ECM
+20577	'Plunderer' Gravimetric ECM
+20579	'Heist' Radar ECM
+20581	'Ghost' Burst Jammer
+20587	150mm 'Musket' Railgun
+20589	250mm 'Flintlock' Railgun
+20591	425mm 'Popper' Railgun
+20593	'Balefire' Rocket Launcher
+20595	'Gallows' Light Missile Launcher
+20597	'Pickaxe' Rapid Light Missile Launcher
+20599	'Undertaker' Heavy Missile Launcher
+20601	'Noose' Cruise Missile Launcher
+20603	'Barrage' Torpedo Launcher
+20605	'Whiskey' Explosive Shield Amplifier
+20607	'High Noon' Thermal Shield Amplifier
+20609	'Cactus' Kinetic Shield Amplifier
+20611	'Prospector' EM Shield Amplifier
+20613	'Glycerine' Shield Boost Amplifier
+20617	Small 'Settler' Shield Booster
+20619	Medium 'Lone Ranger' Shield Booster
+20621	Large 'Outlaw' Shield Booster
+20623	X-Large 'Locomotive' Shield Booster
+20625	Small 'Wolf' Shield Extender
+20627	Small 'Trapper' Shield Extender
+20629	Medium 'Canyon' Shield Extender
+20631	Large 'Sheriff' Shield Extender
+20633	'Nugget' Kinetic Shield Hardener
+20635	'Desert Heat' Thermal Shield Hardener
+20637	'Posse' Multispectrum Shield Hardener
+20639	'Poacher' EM Shield Hardener
+20641	'Snake Eyes' Explosive Shield Hardener
+21054	Crude Sculpture
+21094	Cynosural Field
+21097	Goru's Shuttle
+21334	Guristas Antimatter Charge S
+21470	1MN Analog Booster Afterburner
+21472	10MN Analog Booster Afterburner
+21474	100MN Analog Booster Afterburner
+21476	5MN Digital Booster Microwarpdrive
+21478	50MN Digital Booster Microwarpdrive
+21480	500MN Digital Booster Microwarpdrive
+21482	Ballistic 'Purge' Targeting System I
+21484	'Full Duplex' Ballistic Control System
+21486	'Kindred' Gyrostabilizer
+21488	Monophonic Stabilization Actuator I
+21491	Synthetic Hull Conversion Overdrive Injector
+21493	Limited Expanded 'Archiver' Cargo
+21496	Synthetic Hull Conversion Reinforced Bulkheads
+21498	Synthetic Hull Conversion Inertial Stabilizers
+21500	Synthetic Hull Conversion Nanofiber Structure
+21504	Small 'Integrative' Hull Repair Unit
+21506	Medium 'Integrative' Hull Repair Unit
+21508	Large 'Integrative' Hull Repair Unit
+21510	'Interruptive' Warp Disruptor
+21512	'Delineative' Warp Scrambler
+21527	'Firewall' Signal Amplifier
+21534	'Degenerative' Small Proton Smartbomb
+21536	'Dwindling' Medium Proton Smartbomb
+21538	'Regressive' Large Proton Smartbomb
+21540	'Inception' Target Painter
+21542	N-1 Neon Type Rocket Bay
+21545	200mm Light 'Jolt' Autocannon I
+21547	250mm Light 'Jolt' Artillery I
+21549	280mm 'Jolt' Artillery I
+21551	425mm Medium 'Jolt' Autocannon I
+21553	650mm Medium 'Jolt' Artillery I
+21555	720mm 'Jolt' Artillery I
+21557	800mm Heavy 'Jolt' Repeating Cannon I
+21559	1200mm Heavy 'Jolt' Artillery I
+21561	1400mm 'Jolt' Artillery I
+21628	Guristas Shuttle
+21853	Civilian Armor Repairer
+21855	Civilian Expanded Cargohold
+21857	1MN Civilian Afterburner
+22227	Armored Warfare Link - Rapid Repair I
+22228	Siege Warfare Link - Shield Efficiency I
+22325	'Daemon' Data Analyzer I
+22327	'Codex' Data Analyzer I
+22329	'Alpha' Data Analyzer I
+22331	'Libram' Data Analyzer I
+22476	Warp Prohibitor I
+22553	Mining Foreman Link - Harvester Capacitor Efficiency I
+22555	Mining Foreman Link - Mining Laser Field Enhancement I
+22557	Mining Foreman Link - Laser Optimization I
+22780	Fighter Uno
+22875	'Aura' Warp Core Stabilizer I
+22877	'Natura' Warp Core Stabilizer I
+22879	'Pilfer' Multispectrum Energized Membrane
+22881	'Moonshine' Thermal Energized Membrane
+22883	'Mafia' Kinetic Energized Membrane
+22885	Stealth System I
+22887	'Harmony' Small Armor Repairer I
+22889	'Meditation' Medium Armor Repairer I
+22891	'Protest' Large Armor Repairer I
+22893	'Gonzo' Damage Control I
+22895	'Shady' Sensor Booster
+22897	'Forger' ECCM - Magnetometric I
+22899	'Corporate' Light Electron Blaster I
+22901	'Dealer' Light Ion Blaster I
+22903	'Racket' Light Neutron Blaster I
+22905	'Slither' Heavy Electron Blaster I
+22907	'Hooligan' Heavy Ion Blaster I
+22909	'Hustler' Heavy Neutron Blaster I
+22911	'Swindler' Electron Blaster Cannon I
+22913	'Felon' Ion Blaster Cannon I
+22915	'Underhand' Neutron Blaster Cannon I
+22917	'Capitalist' Magnetic Field Stabilizer I
+22919	'Monopoly' Magnetic Field Stabilizer
+22921	'Habitat' Miner I
+22923	'Wild' Miner I
+22925	'Bootleg' Remote Sensor Booster
+22927	'Economist' Tracking Computer I
+22929	'Marketeer' Tracking Computer
+22931	'Distributor' Guidance Disruptor
+22933	'Investor' Tracking Disruptor I
+22935	'Tycoon' Remote Tracking Computer
+22937	'Enterprise' Remote Tracking Computer
+22943	'Broker' Remote Sensor Dampener I
+22945	'Executive' Remote Sensor Dampener
+22947	'Beatnik' Small Remote Armor Repairer
+22949	'Love' Medium Remote Armor Repairer
+22953	'Cartel' Power Diagnostic System I
+23071	Imperial Navy Multifrequency S
+23414	'Brotherhood' Small Remote Armor Repairer
+23416	'Peace' Large Remote Armor Repairer
+23418	'Radical' Damage Control
+23759	FA-14 Templar
+23773	Ragnarok
+23783	'Abatis' 100mm Steel Plates
+23785	'Bailey' 1600mm Steel Plates
+23787	'Chainmail' 200mm Steel Plates
+23789	'Bastion' 400mm Steel Plates
+23791	'Citadella' 100mm Steel Plates
+23793	'Barbican' 800mm Steel Plates
+23795	'Gorget' Small Armor Repairer I
+23797	'Greaves' Medium Armor Repairer I
+23799	'Hauberk' Large Armor Repairer I
+23801	'Crucible' Small Cap Battery
+23803	'Censer' Medium Cap Battery
+23805	'Thurifer' Large Cap Battery
+23807	'Saddle' Small Capacitor Booster I
+23809	'Harness' Medium Capacitor Booster I
+23811	'Plough' Heavy Capacitor Booster I
+23813	'Palisade' Cap Recharger I
+23815	Small 'Caltrop' Energy Neutralizer
+23817	Medium 'Ditch' Energy Neutralizer
+23819	Heavy 'Moat' Energy Neutralizer
+23821	Small 'Upir' Energy Nosferatu
+23824	Medium 'Strigoi' Energy Nosferatu
+23829	Heavy 'Vrykolakas' Energy Nosferatu
+23834	'Mace' Dual Light Beam Laser I
+23836	'Longbow' Small Focused Pulse Laser I
+23838	'Gauntlet' Small Focused Beam Laser I
+23840	'Crossbow' Focused Medium Beam Laser I
+23842	'Joust' Heavy Pulse Laser I
+23844	'Arquebus' Heavy Beam Laser I
+23846	'Halberd' Mega Pulse Laser I
+23848	'Catapult' Mega Beam Laser I
+23850	'Ballista' Tachyon Beam Laser I
+23852	'Squire' Small Remote Capacitor Transmitter
+23854	'Knight' Medium Remote Capacitor Transmitter
+23856	'Chivalry' Large Remote Capacitor Transmitter
+23864	'Pike' Small EMP Smartbomb
+23866	'Lance' Medium EMP Smartbomb
+23868	'Warhammer' Large EMP Smartbomb
+23883	Methros Enhanced Decoding Device
+23894	'Page' Capacitor Flux Coil I
+23896	'Motte' Capacitor Power Relay I
+23898	'Portcullis' Reactor Control Unit I
+23900	'Mangonel' Heat Sink I
+23902	'Trebuchet' Heat Sink I
+24468	R.A.M.- Battlecruiser Tech
+24620	Medium Tractor Beam I
+24622	Large Tractor Beam I
+25540	'Crop' Gas Cloud Scoop
+25542	'Plow' Gas Cloud Scoop
+25553	Cryptic Data Interface
+25554	Occult Data Interface
+25555	Esoteric Data Interface
+25556	Incognito Data Interface
+25851	Occult Ship Data Interface
+25853	Esoteric Ship Data Interface
+25855	Incognito Ship Data Interface
+25857	Cryptic Ship Data Interface
+25922	Large EW Drone Range Augmentor I
+26018	Launcher Processor Rig I
+26024	Missile Guidance System Rig I
+26064	Propellant Injection Vent I
+26173	QA Probe Launcher
+26314	Propellant Injection Vent II
+26336	Large EW Drone Range Augmentor II
+26408	Launcher Processor Rig II
+26410	Missile Guidance System Rig II
+26422	Projectile Cache Distributor II
+26426	Projectile Consumption Elutriator II
+26597	Cryptic Tuner Data Interface
+26599	Esoteric Tuner Data Interface
+26601	Incognito Tuner Data Interface
+26603	Occult Tuner Data Interface
+26842	Tempest Tribal Issue
+26849	Tournament Bubble
+26869	QA ECM Burst
+26925	Drone Damage Rig I
+26927	Drone Damage Rig II
+26960	Sensor Strength Rig I
+26962	Sensor Strength Rig II
+26964	Shield Transporter Rig I
+26966	Shield Transporter Rig II
+26983	Civilian Salvager
+27014	Civilian Data Analyzer
+27019	Civilian Relic Analyzer
+27021	Perpetual Motion Unit I
+27038	Clay Pigeon
+27299	Civilian Amarr Shuttle
+27301	Civilian Caldari Shuttle
+27303	Civilian Gallente Shuttle
+27305	Civilian Minmatar Shuttle
+27530	Blood Control Tower
+27532	Dark Blood Control Tower
+27533	Guristas Control Tower
+27535	Dread Guristas Control Tower
+27536	Serpentis Control Tower
+27538	Shadow Control Tower
+27539	Angel Control Tower
+27540	Domination Control Tower
+27542	Serpentis Large Blaster Battery
+27544	Shadow Large Blaster Battery
+27545	Serpentis Large Railgun Battery
+27547	Shadow Large Railgun Battery
+27548	Blood Large Pulse Laser Battery
+27550	Dark Blood Large Pulse Laser Battery
+27551	Blood Large Beam Laser Battery
+27553	Dark Blood Large Beam Laser Battery
+27554	Angel Large AutoCannon Battery
+27556	Domination Large AutoCannon Battery
+27557	Angel Large Artillery Battery
+27559	Domination Large Artillery Battery
+27560	Guristas XL Torpedo Battery
+27562	Dread Guristas XL Torpedo Battery
+27563	Serpentis Warp Disruption Battery
+27565	Shadow Warp Disruption Battery
+27567	Serpentis Warp Scrambling Battery
+27569	Shadow Warp Scrambling Battery
+27570	Angel Stasis Webification Battery
+27573	Domination Stasis Webification Battery
+27574	Guristas Ion Field Projection Battery
+27576	Dread Guristas Ion Field Projection Battery
+27577	Guristas Phase Inversion Battery
+27579	Dread Guristas Phase Inversion Battery
+27580	Guristas Spatial Destabilization Battery
+27582	Dread Guristas Spatial Destabilization Battery
+27583	Guristas White Noise Generation Battery
+27585	Dread Guristas White Noise Generation Battery
+27589	Blood Control Tower Medium
+27591	Dark Blood Control Tower Medium
+27592	Blood Control Tower Small
+27594	Dark Blood Control Tower Small
+27595	Guristas Control Tower Medium
+27597	Dread Guristas Control Tower Medium
+27598	Guristas Control Tower Small
+27600	Dread Guristas Control Tower Small
+27601	Serpentis Control Tower Medium
+27603	Shadow Control Tower Medium
+27604	Serpentis Control Tower Small
+27606	Shadow Control Tower Small
+27607	Angel Control Tower Medium
+27609	Domination Control Tower Medium
+27610	Angel Control Tower Small
+27612	Domination Control Tower Small
+27613	Serpentis Medium Blaster Battery
+27615	Shadow Medium Blaster Battery
+27616	Serpentis Medium Railgun Battery
+27618	Shadow Medium Railgun Battery
+27619	Serpentis Small Blaster Battery
+27621	Shadow Small Blaster Battery
+27622	Serpentis Small Railgun Battery
+27624	Shadow Small Railgun Battery
+27625	Blood Medium Beam Laser Battery
+27627	Dark Blood Medium Beam Laser Battery
+27628	Blood Medium Pulse Laser Battery
+27630	Dark Blood Medium Pulse Laser Battery
+27631	Blood Small Beam Laser Battery
+27633	Dark Blood Small Beam Laser Battery
+27634	Blood Small Pulse Laser Battery
+27636	Dark Blood Small Pulse Laser Battery
+27638	Guristas Cruise Missile Battery
+27640	Dread Guristas Cruise Missile Battery
+27641	Guristas Torpedo Battery
+27643	Dread Guristas Torpedo Battery
+27644	Angel Medium Artillery Battery
+27646	Domination Medium Artillery Battery
+27647	Angel Medium AutoCannon Battery
+27649	Domination Medium AutoCannon Battery
+27650	Angel Small Artillery Battery
+27652	Domination Small Artillery Battery
+27653	Angel Small AutoCannon Battery
+27655	Domination Small AutoCannon Battery
+27672	Energy Neutralizing Battery
+27678	ECM Jammer Burst Projector
+27766	Sansha Large Beam Laser Battery
+27767	Sansha Large Pulse Laser Battery
+27768	Sansha Medium Beam Laser Battery
+27769	Sansha Medium Pulse Laser Battery
+27770	Sansha Small Beam Laser Battery
+27771	Sansha Small Pulse Laser Battery
+27772	True Sansha Large Beam Laser Battery
+27773	True Sansha Large Pulse Laser Battery
+27774	True Sansha Medium Beam Laser Battery
+27775	True Sansha Medium Pulse Laser Battery
+27776	True Sansha Small Beam Laser Battery
+27777	True Sansha Small Pulse Laser Battery
+27778	Serpentis Sensor Dampening Battery
+27779	Shadow Sensor Dampening Battery
+27780	Sansha Control Tower
+27782	Sansha Control Tower Medium
+27784	Sansha Control Tower Small
+27786	True Sansha Control Tower
+27788	True Sansha Control Tower Medium
+27790	True Sansha Control Tower Small
+27855	Sansha Energy Neutralizing Battery
+27856	True Sansha Energy Neutralizing Battery
+27857	Blood Energy Neutralizing Battery
+27858	Dark Blood Energy Neutralizing Battery
+28324	Republic Fleet Carbonized Lead L
+28326	Republic Fleet Carbonized Lead M
+28328	Republic Fleet Carbonized Lead S
+28330	Republic Fleet Carbonized Lead XL
+28332	Republic Fleet Depleted Uranium L
+28334	Republic Fleet Depleted Uranium M
+28336	Republic Fleet Depleted Uranium S
+28338	Republic Fleet Depleted Uranium XL
+28367	Batch Compressed Arkonor
+28375	Republic Fleet Heavy Assault Missile Launcher
+28377	Caldari Navy Heavy Assault Missile Launcher
+28379	Domination Heavy Assault Missile Launcher
+28381	Dread Guristas Heavy Assault Missile Launcher
+28383	True Sansha Heavy Assault Missile Launcher
+28385	Batch Compressed Arkonor II-Grade
+28387	Batch Compressed Arkonor III-Grade
+28388	Batch Compressed Bistot
+28389	Batch Compressed Bistot III-Grade
+28390	Batch Compressed Bistot II-Grade
+28391	Batch Compressed Crokite
+28392	Batch Compressed Crokite III-Grade
+28393	Batch Compressed Crokite IV-Grade
+28394	Batch Compressed Dark Ochre
+28395	Batch Compressed Dark Ochre III-Grade
+28396	Batch Compressed Dark Ochre II-Grade
+28397	Batch Compressed Gneiss
+28398	Batch Compressed Gneiss II-Grade
+28612	Planet Satellite
+28650	Covert Cynosural Field I
+31864	Imperial Navy Acolyte
+31866	Imperial Navy Infiltrator
+31868	Imperial Navy Curator
+31870	Imperial Navy Praetor
+31872	Caldari Navy Hornet
+31874	Caldari Navy Vespa
+31876	Caldari Navy Wasp
+31878	Caldari Navy Warden
+31880	Federation Navy Hobgoblin
+31882	Federation Navy Hammerhead
+31884	Federation Navy Ogre
+31886	Federation Navy Garde
+31888	Republic Fleet Warrior
+31890	Republic Fleet Valkyrie
+31892	Republic Fleet Berserker
+31894	Republic Fleet Bouncer
+31896	Imperial Navy 100mm Steel Plates
+31898	Federation Navy 100mm Steel Plates
+31900	Imperial Navy 1600mm Steel Plates
+31902	Federation Navy 1600mm Steel Plates
+31904	Imperial Navy 200mm Steel Plates
+31906	Federation Navy 200mm Steel Plates
+31908	Imperial Navy 400mm Steel Plates
+31910	Federation Navy 400mm Steel Plates
+31916	Imperial Navy 800mm Steel Plates
+31918	Federation Navy 800mm Steel Plates
+31922	Caldari Navy Small Shield Extender
+31924	Republic Fleet Small Shield Extender
+31926	Caldari Navy Medium Shield Extender
+31928	Republic Fleet Medium Shield Extender
+31930	Caldari Navy Large Shield Extender
+31932	Republic Fleet Large Shield Extender
+31942	Federation Navy Omnidirectional Tracking Link
+31944	Republic Fleet Target Painter
+31946	Imperial Navy Large Remote Capacitor Transmitter
+31948	Imperial Navy Medium Remote Capacitor Transmitter
+31950	Imperial Navy Small Remote Capacitor Transmitter
+31952	Caldari Navy Power Diagnostic System
+32207	Freki
+32209	Mimir
+32226	Defunct Territorial Claim Unit
+32414	Domination Target Painter
+32422	Deprecated Advanced Logistics Network
+32788	Cambion
+32790	Etana
+32809	Ammatar Navy Thermal Coating
+32811	Miasmos Amastris Edition
+32840	InterBus Catalyst
+32842	Intaki Syndicate Catalyst
+32844	Inner Zone Shipping Catalyst
+32846	Quafe Catalyst
+32848	Aliastra Catalyst
+32983	Sukuuvestaa Heron
+32985	Inner Zone Shipping Imicus
+32987	Sarum Magnate
+32989	Vherokior Probe
+33017	Deactivated Station Key Pass
+33111	Prototype Cerebral Accelerator
+33149	Personal Hangar Array
+33190	Tash-Murkon Magnate
+33195	Spatial Attunement Unit
+33395	Moracha
+33397	Chremoas
+33446	Caldari Navy Rapid Heavy Missile Launcher
+33459	Republic Fleet Rapid Heavy Missile Launcher
+33513	Leopard
+33513	Leopard
+33516	High-grade Ascendancy Alpha
+33520	'Wetu' Mobile Depot
+33522	'Yurt' Mobile Depot
+33525	High-grade Ascendancy Beta
+33526	High-grade Ascendancy Delta
+33527	High-grade Ascendancy Epsilon
+33528	High-grade Ascendancy Gamma
+33529	High-grade Ascendancy Omega
+33553	Stratios Emergency Responder
+33555	Mid-grade Ascendancy Alpha
+33557	Mid-grade Ascendancy Beta
+33559	Mid-grade Ascendancy Delta
+33561	Mid-grade Ascendancy Epsilon
+33563	Mid-grade Ascendancy Gamma
+33565	Mid-grade Ascendancy Omega
+33585	Defunct Amarr Encounter Surveillance System
+33587	Mobile Decoy Unit
+33595	Defunct Caldari Encounter Surveillance System
+33608	Defunct Gallente Encounter Surveillance System
+33610	Defunct Minmatar Encounter Surveillance System
+33623	Abaddon Tash-Murkon Edition
+33625	Abaddon Kador Edition
+33627	Rokh Nugoeihuvi Edition
+33629	Rokh Wiyrkomi Edition
+33631	Maelstrom Nefantar Edition
+33633	Maelstrom Krusual Edition
+33635	Hyperion Aliastra Edition
+33637	Hyperion Inner Zone Shipping Edition
+33639	Omen Kador Edition
+33641	Omen Tash-Murkon Edition
+33643	Caracal Nugoeihuvi Edition
+33645	Caracal Wiyrkomi Edition
+33647	Stabber Nefantar Edition
+33649	Stabber Krusual Edition
+33651	Thorax Aliastra Edition
+33653	Thorax Inner Zone Shipping Edition
+33655	Punisher Kador Edition
+33657	Punisher Tash-Murkon Edition
+33659	Merlin Nugoeihuvi Edition
+33661	Merlin Wiyrkomi Edition
+33663	Rifter Nefantar Edition
+33665	Rifter Krusual Edition
+33667	Incursus Aliastra Edition
+33669	Incursus Inner Zone Shipping Edition
+33677	Police Pursuit Comet
+33681	Gecko
+33683	Mackinaw ORE Development Edition
+33685	Orca ORE Development Edition
+33687	Rorqual ORE Development Edition
+33689	Iteron Inner Zone Shipping Edition
+33691	Tayra Wiyrkomi Edition
+33693	Mammoth Nefantar Edition
+33695	Bestower Tash-Murkon Edition
+33869	Brutix Serpentis Edition
+33871	Cyclone Thukker Tribe Edition
+33873	Ferox Guristas Edition
+33875	Prophecy Blood Raiders Edition
+33877	Catalyst Serpentis Edition
+33879	Coercer Blood Raiders Edition
+33881	Cormorant Guristas Edition
+33883	Thrasher Thukker Tribe Edition
+34118	Megathron Quafe Edition
+34120	Mobile Competitive Vault
+34151	Rattlesnake Victory Edition
+34213	Apocalypse Blood Raider Edition
+34215	Apocalypse Kador Edition
+34217	Apocalypse Tash-Murkon Edition
+34219	Paladin Blood Raider Edition
+34221	Paladin Kador Edition
+34223	Paladin Tash-Murkon Edition
+34225	Raven Guristas Edition
+34227	Raven Kaalakiota Edition
+34229	Raven Nugoeihuvi Edition
+34231	Golem Guristas Edition
+34233	Golem Kaalakiota Edition
+34235	Golem Nugoeihuvi Edition
+34237	Megathron Police Edition
+34239	Megathron Inner Zone Shipping Edition
+34241	Kronos Police Edition
+34243	Kronos Quafe Edition
+34245	Kronos Inner Zone Shipping Edition
+34247	Tempest Justice Edition
+34249	Tempest Krusual Edition
+34251	Tempest Nefantar Edition
+34253	Vargur Justice Edition
+34255	Vargur Krusual Edition
+34257	Vargur Nefantar Edition
+34339	Moros Interbus Edition
+34341	Naglfar Justice Edition
+34343	Phoenix Wiyrkomi Edition
+34345	Revelation Sarum Edition
+34396	Self-Assembling Nanolattice
+34441	Dominix Quafe Edition
+34443	Tristan Quafe Edition
+34445	Vexor Quafe Edition
+34457	末日沙场级YC117年特别版
+34459	地狱天使级YC117年特别版
+34461	马克瑞级YC117年特别版
+34463	响尾蛇级YC117年特别版
+34465	多米尼克斯级YC117年特别版
+34467	万王宝座级YC117年特别版
+34469	乌鸦级YC117年特别版
+34471	灾难级YC117年特别版
+34473	幼龙级YC117年特别版
+34475	毒蜥级YC117年特别版
+34477	银鹰级YC117年特别版
+34479	伊什塔级YC117年特别版
+34496	Council Diplomatic Shuttle
+34590	Victorieux Luxury Yacht
+35828	Medium Laboratory
+35829	Large Laboratory
+35830	X-Large Laboratory
+35837	Custom gate 1
+35838	Medium Observatory Array
+35839	Large Observatory Array
+35842	Medium Administration Hub
+35843	Large Administration Hub
+35844	X-Large Administration Hub
+35845	Upwell Monument AM
+35888	Structure Datacore Field Research
+35889	Structure Time Efficiency Laboratory
+35890	Structure Material Efficiency Laboratory
+35895	Structure Corporation Insurance
+35896	Structure Loyalty Point Store
+35897	Structure Customs Office
+35898	Structure Interbus Transport Service
+35904	Structure Planetoid Drilling
+35905	Structure Local Communications Array
+35906	Structure Stellar Mapping Array
+35907	Structure Capsuleer Tracking Array
+35908	Structure Scanner Array
+35909	Structure Listening Post
+35910	Structure Cloak Pinpoint Array
+35911	Structure Cynosural Jammer
+35915	Structure Wormhole Stabilizer
+35916	Structure Sovereignty Unit
+35917	Structure Security Status Claim Unit
+35918	Structure Agent Distribution Unit
+35919	Structure Factional Reserve Unit
+35920	Structure Security Force Array
+35929	Structure Remote Capacitor Transmitter
+35930	Structure Armored Targeted Link
+35931	Structure Information Targeted Link
+35932	Structure Siege Targeted Link
+35933	Structure Skirmish Targeted Link
+35934	Structure Mining Targeted Link
+35935	Structure Remote Armor Repairer
+35936	Structure Remote Hull Repairer
+35937	Structure Remote Shield Booster
+35938	Structure Drone Link Augmentor
+35939	Standup Repulsor Field Projector I
+35951	Structure ECCM Projector
+35952	Structure Remote Sensor Booster
+35953	Structure Scan Resolution Booster
+35954	Structure Remote Missile Guidance Computer
+35955	Structure Remote Tracking Computer
+35957	Structure Missile Guidance Computer
+35958	Structure Drone Navigation Computer
+36902	Coalesced Element
+37141	Structure Ad Post
+37142	Structure Billboard
+37176	Large Tech I Subsystem Manufacturing I
+37177	Large Tech I Subsystem Manufacturing II
+37184	Medium Tech I Small Ship Research I
+37185	Medium Tech I Small Ship Research II
+37186	Medium Tech I Medium Ship Research I
+37187	Medium Tech I Medium Ship Research II
+37188	Medium Tech I Large Ship Research I
+37190	Medium Drone Research I
+37191	Medium Drone Research II
+37192	Medium Consumable Research I
+37193	Medium Consumable Research II
+37194	Medium Module Research I
+37195	Medium Module Research II
+37196	Large Module, Consumable, Drone Research I
+37197	Large Module, Consumable, Drone Research II
+37198	Large Tech I Ship Research I
+37199	Large Tech I Ship Research II
+37202	Large Tech II Component Research I
+37203	Large Tech II Component Research II
+37204	Large Tech I Capital Component Research I
+37205	Large Tech I Capital Component Research II
+37206	Large Structure Component Research I
+37207	Large Structure Component Research II
+37208	Large Tech I Subsystem Research I
+37209	Large Tech I Subsystem Research II
+37210	X-Large Equipment Research I
+37211	X-Large Equipment Research II
+37212	X-Large Ship Research I
+37213	X-Large Ship Research II
+37280	OLD M-Set HS Materials Reclamation I
+37281	OLD M-Set HS Materials Reclamation II
+37282	OLD L-Set Ore Grading Processor I
+37283	OLD L-Set Ore Grading Processor II
+37284	OLD XL-Set Reprocessing Monitor I
+37285	OLD XL-Set Reprocessing Monitor II
+37293	Dread Guristas Rapid Torpedo Launcher
+37297	Modulated Compact Quad Mega Pulse Laser
+37301	Regulated Compact Triple Neutron Blaster Cannon
+37305	Compact Carbine Quad 800mm Repeating Cannon
+37475	Medium Tech I Large Ship Research II
+37533	X-Large Observatory Array
+37535	Upwell Simple Advertisement Center
+37536	Upwell Advanced Advertisement Center
+37826	Structure Explosive Hardener Script
+37827	Structure EM Hardener Script
+37828	Structure Kinetic Resistance Script
+37829	Structure Thermal Resistance Script
+37963	Structure Resistance Switcher
+40307	Noir. Modified Entosis Link
+40308	Spectre Fleet's Modified Entosis Link
+40309	Affirmative. Modified Entosis Link
+40310	Pandemic SPHERE Modified Entosis Link
+40340	Upwell Palatine Keepstar
+40349	25000mm Crystalline Carbonide Restrained Plates
+40350	25000mm Rolled Tungsten Compact Plates
+40355	Capital Azeotropic Restrained Shield Extender
+40356	Capital F-S9 Regolith Compact Shield Extender
+40666	Capital Ghoul Compact Energy Nosferatu
+40667	Capital Knave Scoped Energy Nosferatu
+40700	Superweapon_AOEGuide
+40715	Capital Implacable Compact Emergency Hull Energizer
+40716	Capital Indefatigable Enduring Emergency Hull Energizer
+40660	Capital Gremlin Compact Energy Neutralizer
+40731	Heavy Fleeting Compact Warp Disruptor
+40752	Heavy Initiated Compact Warp Scrambler
+41099	Modulated Compact Dual Giga Pulse Laser
+41114	Modulated Compact Dual Giga Beam Laser
+41126	Regulated Compact Ion Siege Blaster
+41138	Carbide Compact Dual 1000mm Railgun
+41150	Carbine Compact Hexa 2500mm Repeating Cannon
+41156	Carbide Compact Quad 3500mm Siege Artillery
+41175	Arbalest Compact XL Cruise Missile Launcher
+41180	Arbalest Compact XL Torpedo Launcher
+41223	Arbalest Compact Rapid Torpedo Launcher
+41237	10000MN Y-S8 Compact Afterburner
+41250	50000MN Y-T8 Compact Microwarpdrive
+41414	Hermes Compact Fighter Support Unit
+41464	Capital Coaxial Compact Remote Armor Repairer
+41470	Capital Murky Compact Remote Shield Booster
+41485	Capital Compact Pb-Acid Cap Battery
+41492	Capital F-RX Compact Capacitor Booster
+41499	Capital ACM Compact Armor Repairer
+41505	Capital C-5L Compact Shield Booster
+41513	Capital IEF Compact Hull Repairer
+41566	Capital Inductive Compact Remote Capacitor Transmitter
+47912	Light Compact Entropic Disintegrator
+47916	Heavy Compact Entropic Disintegrator
+47920	Supratidal Compact Entropic Disintegrator
+49772	Heavy Mutadaptive Compact Remote Armor Repairer
+54740	Small Compact Vorton Projector
+54746	Medium Compact Vorton Projector
+54751	Large Compact Vorton Projector
+54974	Compact Vorton Tuning System I
+58966	Compact Interdiction Nullifier
+40732	Heavy J5 Enduring Warp Disruptor
+40754	Heavy J5b Enduring Warp Scrambler
+41063	Modal Enduring Quad Mega Pulse Laser
+41076	Modal Enduring Triple Neutron Blaster Cannon
+41100	Modal Enduring Dual Giga Pulse Laser
+41115	Modal Enduring Dual Giga Beam Laser
+41127	Modal Enduring Ion Siege Blaster
+41139	Compressed Enduring Dual 1000mm Railgun
+41238	10000MN Monopropellant Enduring Afterburner
+41252	50000MN Cold-Gas Enduring Microwarpdrive
+41463	Capital I-ax Enduring Remote Armor Repairer
+41469	Capital Asymmetric Enduring Remote Shield Booster
+41498	Capital I-a Enduring Armor Repairer
+41506	Capital Clarity Ward Enduring Shield Booster
+41512	Capital I-b Enduring Hull Repairer
+58971	Enduring Interdiction Nullifier
+41065	Afocal Precise Quad Mega Pulse Laser
+41078	Limited Precise Triple Neutron Blaster Cannon
+41082	Prototype Precise Quad 800mm Repeating Cannon
+41102	Afocal Precise Dual Giga Pulse Laser
+41117	Afocal Precise Dual Giga Beam Laser
+41129	Limited Precise Ion Siege Blaster
+41141	Prototype Precise Dual 1000mm Railgun
+41153	Prototype Precise Hexa 2500mm Repeating Cannon
+41159	Prototype Precise Quad 3500mm Siege Artillery
+40661	Capital Infectious Scoped Energy Neutralizer
+40733	Heavy Faint Scoped Warp Disruptor
+40756	Heavy Faint Epsilon Scoped Warp Scrambler
+41064	Anode Scoped Quad Mega Pulse Laser
+41077	Anode Scoped Triple Neutron Blaster Cannon
+41081	Scout Scoped Quad 800mm Repeating Cannon
+41101	Anode Scoped Dual Giga Pulse Laser
+41116	Anode Scoped Dual Giga Beam Laser
+41128	Anode Scoped Ion Siege Blaster
+41140	Scout Scoped Dual 1000mm Railgun
+41152	Scout Scoped Hexa 2500mm Repeating Cannon
+41158	Scout Scoped Quad 3500mm Siege Artillery
+41465	Capital Solace Scoped Remote Armor Repairer
+41471	Capital S95a Scoped Remote Shield Booster
+41565	Capital Radiative Scoped Remote Capacitor Transmitter
+47913	Light Scoped Entropic Disintegrator
+47917	Heavy Scoped Entropic Disintegrator
+47921	Supratidal Scoped Entropic Disintegrator
+49771	Heavy Mutadaptive Scoped Remote Armor Repairer
+54741	Small Scoped Vorton Projector
+54747	Medium Scoped Vorton Projector
+54752	Large Scoped Vorton Projector
+40736	Shadow Serpentis Heavy Warp Disruptor
+40762	Shadow Serpentis Heavy Warp Scrambler
+41079	Shadow Serpentis Triple Neutron Blaster Cannon
+41130	Shadow Serpentis Ion Siege Blaster
+41142	Shadow Serpentis Dual 1000mm Railgun
+41241	Shadow Serpentis 10000MN Afterburner
+41255	Shadow Serpentis 50000MN Microwarpdrive
+41458	Shadow Serpentis 25000mm Steel Plates
+41468	Shadow Serpentis Capital Remote Armor Repairer
+41502	Shadow Serpentis Capital Armor Repairer
+41527	Shadow Serpentis Capital Flex Armor Hardener
+47123	Standup Shadow
+40664	Dark Blood Capital Energy Neutralizer
+40670	Dark Blood Capital Energy Nosferatu
+41066	Dark Blood Quad Mega Pulse Laser
+41103	Dark Blood Dual Giga Pulse Laser
+41118	Dark Blood Dual Giga Beam Laser
+41457	Dark Blood 25000mm Steel Plates
+41467	Dark Blood Capital Remote Armor Repairer
+41488	Dark Blood Capital Cap Battery
+41494	Dark Blood Capital Capacitor Booster
+41501	Dark Blood Capital Armor Repairer
+41526	Dark Blood Capital Flex Armor Hardener
+46575	Dark Blood Standup Heavy Energy Neutralizer
+40737	Domination Heavy Warp Disruptor
+40764	Domination Heavy Warp Scrambler
+41083	Domination Quad 800mm Repeating Cannon
+41154	Domination Hexa 2500mm Repeating Cannon
+41160	Domination Quad 3500mm Siege Artillery
+41240	Domination 10000MN Afterburner
+41254	Domination 50000MN Microwarpdrive
+41462	Domination Capital Shield Extender
+41474	Domination Capital Remote Shield Booster
+41487	Domination Capital Cap Battery
+41510	Domination Capital Shield Booster
+41531	Domination Capital Flex Shield Hardener
+83643	Domination Signature Radius Suppressor
+40663	True Sansha Capital Energy Neutralizer
+40669	True Sansha Capital Energy Nosferatu
+41067	True Sansha Quad Mega Pulse Laser
+41104	True Sansha Dual Giga Pulse Laser
+41119	True Sansha Dual Giga Beam Laser
+41460	True Sansha Capital Shield Extender
+41472	True Sansha Capital Remote Shield Booster
+41495	True Sansha Capital Capacitor Booster
+41508	True Sansha Capital Shield Booster
+41529	True Sansha Capital Flex Shield Hardener
+41080	Ample Gallium Quad 800mm Repeating Cannon
+41151	Gallium Ample Hexa 2500mm Repeating Cannon
+41157	Gallium Ample Quad 3500mm Siege Artillery
+41176	TE-2100 Ample XL Cruise Missile Launcher
+41181	TE-2100 Ample XL Torpedo Launcher
+41224	TE-2100 Ample Rapid Torpedo Launcher
+41251	50000MN Quad LiF Restrained Microwarpdrive
+41422	OLD M-Set LNS Materials Reclamation I	41437	1	1	0		��L
+41423	OLD M-Set LNS Materials Reclamation II	41430	1	1	0		���
+41424	OLD M-Set I1 Materials Reclamation I	41431	1	1	0		��K
+41425	OLD M-Set I1 Materials Reclamation II	41432	1	1	0		���
+41426	OLD M-Set I2 Materials Reclamation I	41433	1	1	0		��K
+41427	OLD M-Set I2 Materials Reclamation II	41434	1	1	0		���
+41428	OLD L-Set Ice Grading Processor I	41435	1	1	0		��J
+41429	OLD L-Set Ice Grading Processor II	41436	1	1	0		���
+42124	Vehement
+42125	Vendetta
+42126	Vanquisher
+42241	Molok
+42242	Dagon
+42243	Chemosh
+42244	Porpoise
+42245	Rabisu
+42246	Caedes
+42685	Sunesis
+44111	Tahron's Custom Heat Sink
+44112	Vadari's Custom Gyrostabilizer
+44113	Kaatara's Custom Magnetic Field Stabilizer
+44114	Torelle's Custom Magnetic Field Stabilizer
+45530	Virtuoso
+45531	Victor
+45647	Caiman
+45649	Komodo
+47068	Standup Gravitational Transportation Field Oscillator
+47466	Praxis
+48605	Expired Basic 'Radiance' Cerebral Accelerator
+48606	Expired Standard 'Radiance' Cerebral Accelerator
+48607	Expired Advanced 'Radiance' Cerebral Accelerator
+48608	Expired Extended 'Radiance' Cerebral Accelerator
+48609	B11
+48610	S11
+48611	A11
+48612	E11
+48613	Expired Basic 'Brainfreeze' Cerebral Accelerator
+48614	Expired Standard 'Brainfreeze' Cerebral Accelerator
+48615	Expired Advanced 'Brainfreeze' Cerebral Accelerator
+48616	Expired Extended 'Brainfreeze' Cerebral Accelerator
+48635	Tiamat
+48636	Hydra
+48744	'Subverted' JVN-UC49
+48944	November Module
+49099	Zero-Point Mass Entangler
+49600	Upwell Monument 1M
+49601	Upwell Monument 1F
+49790	ML-EKP 'Polybolos' Ballistic Control System
+49791	Frostline 'Clavicula' Integrated Analyzer
+49792	Frostline 'Omnivore' Harvester Upgrade
+50007	Expired Basic 'Ardour' Cerebral Accelerator
+50008	Expired Standard 'Ardour' Cerebral Accelerator
+50009	Expired Advanced 'Ardour' Cerebral Accelerator
+50010	Expired Extended 'Ardour' Cerebral Accelerator
+50053	Inquest 'Hedone' Entanglement Optimizer WS-802
+50066	Inquest 'Hedone' Entanglement Optimizer WS-803
+50067	Inquest 'Hedone' Entanglement Optimizer WS-804
+52236	Zorya's Light Entropic Disintegrator
+52238	Zorya's Heavy Entropic Disintegrator
+52240	Zorya's Supratidal Entropic Disintegrator
+52242	Zorya's Entropic Radiation Sink
+52244	Veles Entropic Radiation Sink
+52674	Low-grade Mimesis Alpha
+52679	Low-grade Mimesis Beta
+52680	Low-grade Mimesis Gamma
+52681	Low-grade Mimesis Delta
+52682	Low-grade Mimesis Epsilon
+52683	Low-grade Mimesis Omega
+52785	Mid-grade Mimesis Alpha
+52786	Mid-grade Mimesis Beta
+52787	Mid-grade Mimesis Gamma
+52788	Mid-grade Mimesis Delta
+52789	Mid-grade Mimesis Epsilon
+52790	Mid-grade Mimesis Omega
+52798	Basic 'Equality' Cerebral Accelerator
+52799	Standard 'Equality' Cerebral Accelerator
+52800	Extended 'Equality' Cerebral Accelerator
+52801	Basic 'Bonding' Cerebral Accelerator
+52802	Expired Potent 'Bonding' Cerebral Accelerator
+52803	Expired Extended 'Bonding' Cerebral Accelerator
+52804	Basic 'Guri Hivaa' Cerebral Accelerator
+52805	Standard 'Guri Hivaa' Cerebral Accelerator
+52806	Extended 'Guri Hivaa' Cerebral Accelerator
+52807	Expired Basic 'Radiance' Cerebral Accelerator
+52808	Expired Potent 'Radiance' Cerebral Accelerator
+52809	Expired Extended 'Radiance' Cerebral Accelerator
+52810	Basic 'Synapse' Overmind Accelerator
+52811	Standard 'Synapse' Overmind Accelerator
+52812	Extended 'Synapse' Overmind Accelerator
+52917	High-grade Mimesis Alpha
+52918	High-grade Mimesis Beta
+52919	High-grade Mimesis Delta
+52920	High-grade Mimesis Epsilon
+52921	High-grade Mimesis Gamma
+52922	High-grade Mimesis Omega
+53704	Mid-grade Nirvana Alpha
+53705	Mid-grade Nirvana Beta
+53706	Mid-grade Nirvana Delta
+53707	Mid-grade Nirvana Epsilon
+53708	Mid-grade Nirvana Gamma
+53709	Mid-grade Nirvana Omega
+53710	High-grade Nirvana Alpha
+53711	High-grade Nirvana Beta
+53712	High-grade Nirvana Delta
+53713	High-grade Nirvana Epsilon
+53714	High-grade Nirvana Omega
+53715	High-grade Nirvana Gamma
+53839	Low-grade Nirvana Omega
+53853	Low-grade Nirvana Alpha
+53854	Low-grade Nirvana Beta
+53855	Low-grade Nirvana Gamma
+53856	Low-grade Nirvana Delta
+53857	Low-grade Nirvana Epsilon
+53890	High-grade Savior Alpha
+53891	High-grade Savior Beta
+53892	High-grade Savior Gamma
+53893	High-grade Savior Delta
+53894	High-grade Savior Epsilon
+53895	High-grade Savior Omega
+53896	Mid-grade Savior Alpha
+53897	Mid-grade Savior Beta
+53898	Mid-grade Savior Gamma
+53899	Mid-grade Savior Delta
+53900	Mid-grade Savior Epsilon
+53901	Mid-grade Savior Omega
+53902	Low-grade Savior Alpha
+53903	Low-grade Savior Beta
+53904	Low-grade Savior Gamma
+53905	Low-grade Savior Delta
+53906	Low-grade Savior Epsilon
+53907	Low-grade Savior Omega
+53983	Signal-25 'Needlejack' Filament
+53985	Noise-15 'Needlejack' Filament
+53986	Signal-15 'Needlejack' Filament
+53987	Noise-25 'Needlejack' Filament
+54392	High-grade Hydra Alpha
+54393	High-grade Hydra Beta
+54394	High-grade Hydra Gamma
+54395	High-grade Hydra Delta
+54396	High-grade Hydra Epsilon
+54397	High-grade Hydra Omega
+54398	Mid-grade Hydra Alpha
+54399	Mid-grade Hydra Beta
+54400	Mid-grade Hydra Gamma
+54401	Mid-grade Hydra Delta
+54402	Mid-grade Hydra Epsilon
+54403	Mid-grade Hydra Omega
+54404	Low-grade Hydra Alpha
+54405	Low-grade Hydra Beta
+54406	Low-grade Hydra Gamma
+54407	Low-grade Hydra Delta
+54408	Low-grade Hydra Epsilon
+54409	Low-grade Hydra Omega
+55761	'Dunk' Salvage Drone
+55860	'Pickpocket' EM Energized Membrane
+55862	'Bribe' Explosive Energized Membrane
+56701	Mobile Sanguine Harvester
+56733	Nanoheuristic Clone Mapper
+57110	Low-grade Rapture Alpha
+57111	Low-grade Rapture Beta
+57112	Low-grade Rapture Gamma
+57113	Low-grade Rapture Delta
+57114	Low-grade Rapture Epsilon
+57116	Low-grade Rapture Omega
+57117	Mid-grade Rapture Alpha
+57118	Mid-grade Rapture Beta
+57119	Mid-grade Rapture Gamma
+57120	Mid-grade Rapture Delta
+57121	Mid-grade Rapture Epsilon
+57122	Mid-grade Rapture Omega
+57123	High-grade Rapture Alpha
+57124	High-grade Rapture Beta
+57125	High-grade Rapture Gamma
+57126	High-grade Rapture Delta
+57127	High-grade Rapture Epsilon
+57128	High-grade Rapture Omega
+60633	Expired Curious Warp Matrix Filament
+60764	Laelaps
+60765	Raiju
+60766	Aralez
+61654	Expired Precarious Warp Matrix Filament
+61655	Expired Hazardous Warp Matrix Filament
+61656	Expired Enigmatic Warp Matrix Filament
+62055	Expired Mysterious Warp Matrix Filament
+62056	Expired Dangerous Warp Matrix Filament
+62057	Expired Perilous Warp Matrix Filament
+64034	Boobook
+78740	Consortium Vorton Tuning System
+78741	Kasiha's Modified Vorton Tuning System
+79996	Expired Sinister Exotic Filament
+79997	Expired Ruined Electrical Filament
+79998	Expired Vicious Electrical Filament
+79999	Expired Devastated Electrical Filament
+80000	Expired Disastrous Gamma Filament
+80001	Expired Annihilated Electrical Filament
+80002	Expired Calamitous Firestorm Filament
+81948	Consortium Small Tractor Beam
+81949	Consortium Capital Tractor Beam
+81951	Consortium Mobile Tractor Unit
+82492	Minor Threat Detection Array 3
+82493	Placeholder Sov Hub Upgrade 1
+82494	Placeholder Sov Hub Upgrade 2
+82495	Placeholder Sov Hub Upgrade 3
+82496	Major Threat Detection Array 1
+82497	Major Threat Detection Array 2
+82498	Major Threat Detection Array 3
+82499	Minor Threat Detection Array 1
+82500	Minor Threat Detection Array 2
+82609	Placeholder Sov Hub Upgrade 4
+83579	Imperial Navy Templar
+83582	Caldari Navy Dragonfly
+83583	Federation Navy Firbolg
+83584	Republic Fleet Einherji
+83585	Imperial Navy Equite
+83586	Caldari Navy Locust
+83587	Federation Navy Satyr
+83589	Republic Fleet Gram
+83591	Imperial Navy Cenobite
+83592	Caldari Navy Scarab
+83593	Federation Navy Siren
+83594	Republic Fleet Dromi
+83644	Dread Guristas Signature Radius Suppressor
+83660	Zohar's Modified Signature Radius Suppressor
+83661	Hakuzosu's Modified Signature Radius Suppressor
+84495	'Blasting' Large Graviton Smartbomb
+84496	'Scalding' Large Plasma Smartbomb
+84497	'Booming' Medium Graviton Smartbomb
+84498	'Boiling' Medium Plasma Smartbomb
+84499	'Roaring' Small Graviton Smartbomb
+84500	'Seething' Small Plasma Smartbomb
+88147	Triplot Scan Acquisition Array
+88172	Narrowband Emission Amplifier
+88173	Narrowband Emission Limiter
+88174	Midband Emission Amplifier
+88175	Midband Emission Limiter
+88176	Wideband Emission Amplifier
+88177	Wideband Emission Limiter
+88202	Expired Sanctified Vidette Filament
+88203	Expired Azdaja Redoubt Filament
+88204	Expired Sentinel MZ Filament
+88205	Expired Liberated Barbican Filament
+88206	Expired Conflux Eyrie Filament
+88266	Strategos' Modified Siege Module
+88709	Xarasier Reactive Armor Hardener
+88710	Xarasier Large Micro Jump Drive
+88711	Xarasier Medium Micro Jump Drive
+88712	Xarasier Capital Micro Jump Drive
+88713	Xarasier Capital Ancillary Shield Booster
+88714	Xarasier X-Large Ancillary Shield Booster
+88715	Xarasier Large Ancillary Shield Booster
+88716	Xarasier Medium Ancillary Shield Booster
+88717	Xarasier Small Ancillary Shield Booster
+88718	Xarasier Capital Ancillary Armor Repairer
+88719	Xarasier Large Ancillary Armor Repairer
+88720	Xarasier Medium Ancillary Armor Repairer
+88721	Xarasier Small Ancillary Armor Repairer
+270
+1947
+1959
+1960
+2002
+2003
+2004
+2005
+2022
+2165
+2210
+2258
+2259
+2260
+2261
+2262
+3472
+4262
+4264
+4266
+4268
+4270
+4272
+4274
+4276
+4278
+4280
+4282
+4284
+4286
+4288
+4290
+4369
+4386
+4407
+11014
+11017
+11052
+11291
+11373
+11375
+11383
+11389
+11474
+11477
+11479
+11480
+11513
+11514
+12036
+12552
+12561
+12610
+12616
+12627
+12629
+12763
+12769
+12781
+12783
+12793
+12795
+12797
+12799
+12810
+12812
+12830
+12832
+15782
+20343
+20514
+24620
+24622
+25922
+26018
+26024
+26064
+26314
+26336
+26408
+26410
+26422
+26426
+26925
+26927
+26960
+26962
+26964
+26966
+28612
+28650
+28888
+28890
+28892
+28894
+29328
+29330
+29332
+29334
+29964
+29965
+29966
+29967
+29969
+29970
+29971
+29972
+29974
+29975
+29976
+29977
+29979
+29980
+29981
+29982
+30036
+30038
+30040
+30042
+30046
+30048
+30050
+30052
+30056
+30058
+30060
+30062
+30066
+30068
+30070
+30072
+30076
+30078
+30080
+30082
+30086
+30088
+30090
+30092
+30096
+30098
+30100
+30102
+30106
+30108
+30110
+30112
+30117
+30118
+30119
+30120
+30122
+30123
+30124
+30125
+30127
+30128
+30129
+30130
+30132
+30133
+30134
+30135
+30139
+30141
+30143
+30145
+30149
+30151
+30153
+30155
+30159
+30161
+30163
+30165
+30169
+30171
+30173
+30175
+30386
+32065
+32067
+32077
+32079
+33087
+35900
+35927
+35966
+35967
+37224
+37225
+37226
+37227
+37252
+37253
+37270
+37271
+37845
+37851
+41350	Superweapon_AOEECM
