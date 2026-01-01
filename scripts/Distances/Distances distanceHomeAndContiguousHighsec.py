@@ -19,7 +19,7 @@ def update_jumps_from_home():
         home_system_id = result[0]
 
         # Get all unique solarSystemIDs from MarketOrdersAll
-        cursor.execute("SELECT DISTINCT solarSystemID FROM MarketOrdersAll")
+        cursor.execute("SELECT DISTINCT solarSystemID FROM Distances")
         unique_system_ids = [row[0] for row in cursor.fetchall()]
 
         # Cache for systemID to jumps
@@ -45,10 +45,10 @@ def update_jumps_from_home():
 
         # Update all records with the appropriate distanceHome
         for system_id, jumps in system_jumps.items():
-            cursor.execute("UPDATE MarketOrdersAll SET distanceHome = ? WHERE solarSystemID = ?", (jumps, system_id))
+            cursor.execute("UPDATE Distances SET distanceHome = ? WHERE solarSystemID = ?", (jumps, system_id))
 
         for system_id, highsec in contiguous_highsec.items():
-            cursor.execute("UPDATE MarketOrdersAll SET contiguousHighsec = ? WHERE solarSystemID = ?", (highsec, system_id))
+            cursor.execute("UPDATE Distances SET contiguousHighsec = ? WHERE solarSystemID = ?", (highsec, system_id))
         conn.commit()
         print("Update complete.")
 

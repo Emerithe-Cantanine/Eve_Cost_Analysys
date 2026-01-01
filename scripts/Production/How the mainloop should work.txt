@@ -1,0 +1,13 @@
+Query the items table for each typeID that has a blueprint.
+For each typeID look into the EstimatedRegionalHighSellAmount table
+ and get the volume_high amount for each region. If all regions are 0
+ move to the next typeID. Hold the columns that had values above 0
+ in memory.
+For each region whose volume_high value was above 0, compute how much
+ it would cost to build the item and its sub components using materials
+ on the market. Take into account whether it would be cheaper to buy
+ expensive materials at the market vs buying cheaper ones at another hub
+ and getting them shipped over. Take volume into consideration when
+ planning shipping and make a preference for DSTs for trips between
+ Amarr and Jita. There is a configuration setting to ignore hauling costs.
+ If that setting is true, then skip the hauling calculation.

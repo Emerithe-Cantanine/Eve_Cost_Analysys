@@ -1,10 +1,25 @@
 {
-"homeSystem": "Parses",
-"lowsecHome": "Chamemi",
+"highsecManuSystem": "Parses",
+"lowsecManuSystem": "Chamemi",
+"preferedTradeHub": "Amarr",
+"blackListedSystems": ["Ahbazon", "Tama", "Mara"],
+"priorityOrderForManuSystems": ["index", "distance", "security"],
+"priorityOrderForReacSystems": ["index", "distance", "security"],
+"buildAnywhereHubDistance": 100,
 "dbPath": "../../CostAnalysis.db",
 "homeDistance": 100,
 "highsecHaulingOnly": true,
+"manufacturingInHighsecOnly": true,
 "buyFromTradeHubsOnly": true,
 "sellToTradeHubsOnly": true,
-"sellTax": 0.05
+"buildAnywhereCheapest": false,
+"ignoreReactionsForNormalItems": true,
+"ignoreHaulingCosts": false,
+"allProductionInLowsec": false,
+"structureMEBonus": 1,
+"sellTax": 0.05,
+"sccSurcharge": 0.04,
+"facilityTax": 0.02,
+"onlyUsePreferedRegions": true,
+"preferedRegionsToFindLeads": ["Domain", "The Forge"]
 }

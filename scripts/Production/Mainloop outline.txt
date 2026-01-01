@@ -1,0 +1,6 @@
+Using order history, find out what sells
+	Use the high fraction to find what sells to sell orders
+
+Find out how much those items cost to make.
+If cost to make is less than sell price at a specified market
+ create a report detailing what to do to do that whole process.

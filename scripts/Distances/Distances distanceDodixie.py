@@ -1,0 +1,50 @@
+import sqlite3
+from collections import defaultdict
+
+from loadConfig import load_config
+from FindNumJumpsAnywhere_IDs import find_jumps_between_system_ids
+
+def update_jumps_from_home():
+    config = load_config()
+    dodixie = "Dodixie"
+    
+    with sqlite3.connect(config["dbPath"]) as conn:
+        cursor = conn.cursor()
+
+        # Find the systemID of Jita
+        cursor.execute("SELECT solarSystemID FROM SolarSystems WHERE solarSystemName = ?", (dodixie,))
+        result = cursor.fetchone()
+        if not result:
+            raise ValueError(f"Trade hub '{dodixie}' not found in SolarSystems table.")
+        dodixieID = result[0]
+
+        # Get all unique solarSystemIDs from Distances
+        cursor.execute("SELECT DISTINCT solarSystemID FROM Distances")
+        unique_system_ids = [row[0] for row in cursor.fetchall()]
+
+        # Cache for systemID to jumps
+        system_jumps = {}
+
+        for system_id in unique_system_ids:
+            if system_id is None:
+                continue
+            try:
+                jumps = find_jumps_between_system_ids(config["dbPath"], dodixieID, system_id, 0.45) #highsec
+                if jumps is None:
+                    jumps = find_jumps_between_system_ids(config["dbPath"], dodixieID, system_id, -2.0)
+            except Exception as e:
+                print(f"Error finding jumps between {dodixieID} and {system_id}: {e}")
+                jumps = -1  # Use -1 to indicate error/unreachable
+
+            system_jumps[system_id] = jumps
+            #print(jumps)
+
+        # Update all records with the appropriate distanceDodixie
+        for system_id, jumps in system_jumps.items():
+            cursor.execute("UPDATE Distances SET distanceDodixie = ? WHERE solarSystemID = ?", (jumps, system_id))
+
+        conn.commit()
+        print("Update complete.")
+
+if __name__ == "__main__":
+    update_jumps_from_home()
