@@ -47,6 +47,9 @@ OnHandMaterials - This is unused
 OrderHistory - Update with this. It takes 36 hours:
 F:\Eve Cost Analysis\scripts\API Stuff\Import OrderHistory into csv.py
 
+Alternatively, Shasokas Tour has a script that pulls order history.
+I pay him 100 mil each week for the data. If you ask him, he'd probably give/sell it to you as well.
+
 Then Import the data into the database from the csv:
 F:\Eve Cost Analysis\scripts\API Stuff\Import OrderHistroy from csv into db.py
 
@@ -69,4 +72,3 @@ Stations - Relies on data from fuzzworks
 
 
 SystemCostIndexes - F:\Eve Cost Analysis\scripts\API Stuff\2 - API call to db - SystemCostIndex.py
-
