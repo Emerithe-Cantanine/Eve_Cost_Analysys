@@ -6,6 +6,7 @@ folderName = get_folder_name()
 
 global config
 config = load_config()
+db_path = config["dbPath"]
 
 
 def convert_tuple_to_list(_tuples):
@@ -38,7 +39,7 @@ def run_query_parameterized(db_path, query, parameters): #parameters has to be a
     return results
 
 # this is tested and works
-def import_blueprints():
+def import_blueprints(db_path):
     run_query(db_path, "delete from BlueprintActivityMaterialRequirements")
     run_query(db_path, "delete from BlueprintActivityProductionAmounts")
     run_query(db_path, "delete from BlueprintActivityTimes")
@@ -110,7 +111,7 @@ def import_blueprints():
                                                 values ({d}, {activityID}, {time})
                                                 ''')
 
-def import_types():
+def import_types(db_path):
     run_query(db_path, "delete from Items")
     with open(f'{folderName}\\types.yaml', 'r', encoding='utf-8') as file:
         db_path = config["dbPath"]
@@ -159,5 +160,5 @@ def import_template():
             #blank = data[d]["other stuff"]
             print(d)
 
-import_blueprints()
-import_types()
+import_blueprints(db_path)
+import_types(db_path)
