@@ -3,7 +3,7 @@ import time
 import pickle
 from Aggregate_Blueprint_Materials import get_material_requirements
 from loadConfig import load_config
-from SetItemLayers import mainloop
+# from SetItemLayers import mainloop
 
 global config
 config = load_config()
@@ -59,6 +59,7 @@ def findNonExistingIngredients(db_path, ingredients):
             print()
         result = run_query(db_path, f"select typeID from Items where typeID = {ingredient[0]}")
         if len(result) == 0:
+            print(f"typeID: {ingredient[0]} does not exist.")
             return True
 
 def generateRecipe(db_path, item):
@@ -138,9 +139,10 @@ def generateRecipes():
                 from Items
                 where blueprintID is not NULL;
               ''')
-    mainloop()
+    
+    # mainloop()
 
-    items = getItems(db_path) # , 57457)
+    items = getItems(db_path) #, 34317)
 
     for item in items:
         if(item[1] == ''):

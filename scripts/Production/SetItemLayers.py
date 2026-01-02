@@ -87,8 +87,13 @@ def set_layer(blueprintID, layer_count):
 def mainloop():
     items = get_items()
 
+    x = 0
     for typeID, blueprintID, activityID, layer in items:
         count = find_layers(blueprintID, activityID)
         set_layer(blueprintID, count)
+        x += 1
+
+        if(x % 100 == 0):
+            print(x)
 
 mainloop()

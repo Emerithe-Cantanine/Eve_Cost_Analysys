@@ -76,7 +76,7 @@ def get_typeID_regionID_volumehigh(db_path):
     query = '''
     select a.typeID, b.regionID, b.volume_high
     from Items a, EstimatedRegionalHighSellAmount b
-    where a.typeID = b.typeID and b.volume_high > 0 and b.regionID < 10000070 and a.typeID > 11475
+    where a.typeID = b.typeID and b.volume_high > 0 and b.regionID < 10000070 --and a.typeID > 11125
     order by a.typeID;
     '''
     # note to self: remember to remove the a.typeID = 16665 when testing is done.
@@ -87,11 +87,6 @@ def get_typeID_regionID_volumehigh(db_path):
     return results
 
 def find_manufacturing_systems(db_path, regionID):
-    if config["buildAnywhereCheapest"] == False:
-        return {"highsecManuSystem": config["highsecManuSystem"],
-                "lowsecManuSystem": config["lowsecManuSystem"],
-                "tradeHub": config["preferedTradeHub"]}
-    
     # This assumes the user wants to find the system with the cheapest cost index
     # closest to their prefered trade hub.
     preferedTradeHub = config["preferedTradeHub"]
@@ -100,6 +95,11 @@ def find_manufacturing_systems(db_path, regionID):
     if preferedTradeHub == "None":
         preferedTradeHub = run_query(db_path, 
                         f"select nearestTradeHubName from Distances where regionID = {regionID}")[0][0]
+        
+    if config["buildAnywhereCheapest"] == False:
+        return {"highsecManuSystem": config["highsecManuSystem"],
+                "lowsecManuSystem": config["lowsecManuSystem"],
+                "tradeHub": preferedTradeHub}
 
     # This setting tells the program to find the cheapest system within x number of jumps from the trade hub.
     # This probably won't be practical for lowsec, so I'll just have it find the nearest one beyond x jumps.
@@ -485,44 +485,49 @@ def compute_profitability(db_path, typeID, regionID, regionName, volumehigh):
 #     conn.commit()
 #     conn.close
 
-def layer_report(db_path, file, components, systems, indention):
+def layer_report(db_path, components, systems, indention):
+    reportText = str()
     for component in components:
         if(component[9] < component[8]):
-            appendFile(file, f"{indention} Build {component[1]} x {component[5]} in ")
+            reportText += f"{indention} Build {component[1]} x {component[5]} in "
             if(component[3] == 1):
-                appendFile(file, f"{systems["highsecManuSystem"]}")
+                reportText += f"{systems["highsecManuSystem"]}"
             elif(component[3] == 11):
-                appendFile(file, f"{systems["lowsecManuSystem"]}")
-            newLine(file)
+                reportText += f"{systems["lowsecManuSystem"]}"
+            reportText += "\n"
 
-            appendFile(file, f"{indention} The sub components are:")
-            newLine(file)
-            layer_report(db_path, file, component[6], systems, indention + "  ")
+            reportText += f"{indention} The sub components are:"
+            reportText += "\n"
+            reportText += layer_report(db_path, component[6], systems, indention + "  ")
         else:
             for order in component[7]:
                 
-                appendFile(file, f"{indention} Buy {component[1]} x {order[1]:,} for {round(order[1] * order[2]):,} @ at {order[2]}/unit ")
+                reportText += f"{indention} Buy {component[1]} x {order[1]:,} for {round(order[1] * order[2]):,} @ at {order[2]}/unit "
                 marketOrder = run_query(db_path, 
                 f"select typeID, price, stationID from MarketOrdersAll where orderID = {order[0]}")[0]
                 stationName = run_query(db_path, f"select stationName from Stations where stationID = {marketOrder[2]}")[0][0]
-                appendFile(file, f"{stationName}")
-                newLine(file)
+                reportText += f"{stationName}"
+                reportText += "\n"
+    return reportText
 
 def generate_report(db_path, recipe, systems, regionID, jobRuns):
     itemName = recipe[1]
     netProfit = round(recipe[8] - recipe[9])
     regionName = run_query(db_path, f"select regionName from Regions where regionID = {regionID}")[0][0]
-    createDirectory(f"./reports/{itemName}")
-    file = createFile(f"./reports/{itemName}/{regionName} - {itemName} - {netProfit}")
 
-    appendFile(file, f"Build {itemName} x {recipe[5]:,}.")
-    newLine(file)
-    appendFile(file, f"That is {jobRuns:,} runs of {recipe[4]:,} units each.")
-    newLine(file)
-    appendFile(file, f"Expected profit is: {netProfit:,} isk.")
-    newLine(file)
+    # createDirectory(f"./reports/{itemName}")
+    # file = createFile(f"./reports/{itemName}/{regionName} - {itemName} - {netProfit}")
+    
+    reportText = ""
+
+    reportText += f"Build {itemName} x {recipe[5]:,}."
+    reportText += "\n"
+    reportText += f"That is {jobRuns:,} runs of {recipe[4]:,} units each."
+    reportText += "\n"
+    reportText += f"Expected profit is: {netProfit:,} isk."
+    reportText += "\n"
     # I should list taxes and all the other bullshit too.
-    newLine(file)
+    reportText += "\n"
     # appendFile(file, f"You'll need to buy this stuff, if you don't have it already:")
     # newLine(file)
 
@@ -536,40 +541,38 @@ def generate_report(db_path, recipe, systems, regionID, jobRuns):
     #     appendFile(file, f"{stationName}: {__itemName} x {quantity} @ {marketOrder[1]}")
     #     newLine(file)
     
-    newLine(file)
-    appendFile(file, f"This is a breakdown of everthing you will need to buy and build:")
-    newLine(file)
-    layer_report(db_path, file, recipe[6], systems, "  ")
-    newLine(file)
+    reportText += "\n"
+    reportText += f"This is a breakdown of everthing you will need to buy and build:"
+    reportText += "\n"
+    reportText += layer_report(db_path, recipe[6], systems, "  ")
+    reportText += "\n"
 
     highsecDistance = run_query(db_path, 
     f"select distance{systems["tradeHub"]} from Distances where solarSystemName = '{systems["highsecManuSystem"]}'")[0][0]
-    appendFile(file, 
-    f"{systems["highsecManuSystem"]} (Highsec) is {highsecDistance} jumps from {systems["tradeHub"]}")
+    reportText += f"{systems["highsecManuSystem"]} (Highsec) is {highsecDistance} jumps from {systems["tradeHub"]}"
 
-    newLine(file)
+    reportText += "\n"
 
     lowsecDistance = run_query(db_path, 
     f"select distance{systems["tradeHub"]} from Distances where solarSystemName = '{systems["lowsecManuSystem"]}'")[0][0]
-    appendFile(file, 
-    f"{systems["lowsecManuSystem"]} (Lowsec) is {lowsecDistance} jumps from {systems["tradeHub"]}")
+    reportText += f"{systems["lowsecManuSystem"]} (Lowsec) is {lowsecDistance} jumps from {systems["tradeHub"]}"
 
-    newLine(file)
+    reportText += "\n"
 
     if recipe[4] == 1:
-        appendFile(file,
-        f"{recipe[1]} sells in {systems["tradeHub"]} for around {round(recipe[8]/jobRuns)} per unit")
+        reportText += f"{recipe[1]} sells in {systems["tradeHub"]} for around {round(recipe[8]/jobRuns)} per unit"
 
     if recipe[4] > 1:
-        appendFile(file,
-        f"{recipe[1]} sells in {systems["tradeHub"]} for around {round(recipe[8]/jobRuns)} per {recipe[4]} units")
+        reportText += f"{recipe[1]} sells in {systems["tradeHub"]} for around {round(recipe[8]/jobRuns)} per {recipe[4]} units"
 
-    newLine(file)
+    reportText += "\n"
 
-    appendFile(file,
-    f"Expected income is {round(recipe[8])} - {round(recipe[9])} = {round(recipe[8] - recipe[9])}")
+    reportText += f"Expected income is {round(recipe[8])} - {round(recipe[9])} = {round(recipe[8] - recipe[9])}"
 
-    file.close()
+    run_query(db_path, f'''
+              insert into Reports (typeID, typeName, regionName, netProfit, reportData)
+              values ({recipe[0]}, "{recipe[1]}", "{regionName}", {netProfit}, "{reportText}")
+              ''')
 
     # work on this some other time.
     # save_report_to_db(db_path, file, recipe)
